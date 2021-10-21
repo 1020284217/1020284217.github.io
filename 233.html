@@ -1,29 +1,118 @@
-<!DOCTYPE html>
+
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-    <form method="post">
-个人履历表<br>
-我的姓名：<input type="text" value="盛奥洁"/>我的姓别：<input type="text" value="女"/>身份证号：<input type="text" value="12345678"/><br>
-出生年月：<input type="text" value="2001年8月30日"/> 是否党员：<input type="text" value="是"/><br>
-我的身高（㎝）：<input type="text" value="171"/>我的体重（KG）：<input type="text" value="57KG"/>生源地区：<input type="text" value="甘肃"/><br>
-目前地区：<input type="text" value="重庆"/>外语语种：<input type="text" value="外星语"/>外语等级：<input type="text" value="一百级"/><br>
-移动电话：<input type="text" value="1234567"/>固定电话：<input type="text" value="1234567"/><br>
-家庭住址：<input type="text" value="某个山沟沟后的小道里的小房子"/><br>
-邮政编码：<input type="text" value="735000"/>我的邮箱：<input type="text" value="123456789"/><br>
-我的特长：<input type="text" value="游戏打的一级棒"/><br>
-教育背景<br>
-学历：<input type="text" value="大专"/>专业：<input type="text" value="云计算"/><br>
-院校：<input type="text" value="重庆工程职业技术学院"/><br>
-
-
-    </form>
-    <img src="455.jpg" alt="个人照片" title="个人照片" width="200" height="120">
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>个人简历</title>
+        <style type="text/css">
+        div {border-radius: 10px;border: 1px solid black;}
+        #container {background-color: pink;width: 605px;height: 900px;align-items: center;}
+        #container1 {background-color: pink;width: 605px;height: 90px;}
+        #container2 {background-color: pink;width: 200px;height: 800px;float: left;}
+        #container3 {background-color: pink;width: 401px;height: 800px;float: left;}
+        #a {background-color: pink;width: 200px;height: 200px;}
+        #b {background-color: pink;width: 200px;height: 150px;}
+        #c {background-color: pink;width: 200px;height: 150px;}
+        #d {background-color: pink;width: 200px;height: 300px;}
+        #e {background-color: pink;width: 400px;height: 150px;}
+        #f {background-color: pink;width: 400px;height: 150px;}
+        #g {background-color: pink;width: 400px;height: 300px;}
+        #h {background-color: pink;width: 400px;height: 200px;}
+        #a1 {text-align: center;}
+        #d1 {font-family: Georgia, 'Times New Roman', Times, serif;}
+        #h1 {text-decoration: underline;}
+        #g1 {font-size: 14px;}
+        </style>
+    </head>
+    <body >
+        <div id="container" >
+            <div id="container1">
+                <h1 align="center">个人简历</h1>
+            </div>
+            <div id="container2">
+                <div id="a" >
+                    <div>照片</div>
+                    <div id="a1"><img src="455.jpg" alt="个人照片" title="个人照片"  width="140" height="175" >
+                    </div>
+                </div>
+                <div id="b">
+                    <div>联系方式</div>
+                    <p>电话：18139790393</p>
+                    <p>微信：18139790393</p>
+                    <p>邮箱：1020284217@qq.com</p>
+                </div>
+                <div id="c">
+                    <div>个人标签</div>
+                    
+                </div>
+                <div id="d">
+                    <div>办公技能</div>
+                    <ul id="d1">
+                        <li>Linux</li><br>
+                        <li>Python</li><br>
+                        <li>Office</li><br>
+                        <li>CAD</li><br>
+                        <li>Java</li><br>
+                        <li>CSS</li><br>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="container3">
+                <div id="e">
+                    <div>个人信息</div>
+                    <div id="e1">
+                       <p>姓名：盛奥洁|性别：女|籍贯：甘肃|学历：大专</p>
+                       <p>居住地：重庆江津双福</p>
+                       <p>通讯地址：重庆工程职业技术学院</p>
+                    </div>
+                </div>
+                <div id="f">
+                    <div>教育背景</div>
+                    <div>
+                        <p></p>
+                        <p>重庆工程职业技术学院|云计算技术与应用</p>
+                        <p>主修课程：《Linux》《VMware》《python》《java》</p>
+                        <p>《web》《OpenStack》《可视化》</p>                       
+                    </div>
+                </div>
+                <div id="g">
+                    <div>相关经验</div>
+                    <ul>
+                        <li>2019.9-10重庆孔方科技有限公司新生帮扶小程序</li>
+                        <ul id="g1">
+                            <li>使用技术：Wxml+Wxss+js</li>
+                            <li>主要任务：实现校园查询与帮助服务、校园地图</li>
+                        </ul>
+                        <li>2019.11-12重庆孔方科技有限公司网易云音乐爬虫</li>
+                        <ul id="g1">
+                            <li>使用技术：python</li>
+                            <li>主要任务：实现音乐资源爬取与播放界面</li>
+                        </ul>
+                        <li>2020.3-5重庆孔方科技有限公司仿QQ聊天软件</li>
+                        <ul id="g1">
+                            <li>使用技术：java+mysql</li>
+                            <li>主要任务：仿照QQ聊天软件，主要是在线文字聊天</li>
+                        </ul>
+                        <li>2020.7-8重庆孔方科技有限公司学生出勤管理系统</li>
+                        <ul id="g1">
+                            <li>使用技术：Vue+nodejs+MongoDB</li>
+                            <li>主要任务：实现上课自动签到、课表查询等功能</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div id="h">
+                    <div>获奖证书</div>
+                    <ul id="h1">
+                        <li>2019年12月</li>
+                        <li>2019年12月</li>
+                        <li>2020年2月</li>
+                        <li>2020年5月</li>
+                        <li>2020年11月</li>
+                        <li>2021年3月</li>
+                        <li>2021年7月</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
-<!DOCTYPE html>
-<html>
-
